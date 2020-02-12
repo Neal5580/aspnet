@@ -20,8 +20,8 @@ namespace DatingApp.API.Data
                 return null;
             }
 
-            if(!VerifyPasswordHash(password, user.PasswordHash, user.PasswordHash))
-                return null;
+            // if(!VerifyPasswordHash(password, user.PasswordHash, user.PasswordHash))
+            //     return null;
 
             return user;
         }
